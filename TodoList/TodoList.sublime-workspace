@@ -1,0 +1,622 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"re",
+				"remove"
+			],
+			[
+				"pa",
+				"parentElement"
+			],
+			[
+				"che",
+				"checkbox"
+			],
+			[
+				"ta",
+				"tab_clear"
+			],
+			[
+				"check",
+				"checkbox"
+			],
+			[
+				"g",
+				"gi\tgetElementById"
+			],
+			[
+				"fu",
+				"myFunction"
+			],
+			[
+				"ch",
+				"checkAll"
+			],
+			[
+				"class",
+				"classList"
+			],
+			[
+				"chec",
+				"checkbox"
+			],
+			[
+				"e",
+				"else"
+			],
+			[
+				"img",
+				"imgAll"
+			],
+			[
+				"sc",
+				"select\tTag"
+			],
+			[
+				"l",
+				"legend\tTag"
+			],
+			[
+				"get",
+				"getEdit"
+			],
+			[
+				"le",
+				"label"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"d",
+				"document"
+			],
+			[
+				"ge",
+				"getElementsByClassName"
+			],
+			[
+				"fun",
+				"fun\tFunction"
+			],
+			[
+				"in",
+				"input_value"
+			],
+			[
+				"app",
+				"appendChild"
+			],
+			[
+				"ap",
+				"appendChild"
+			],
+			[
+				"c",
+				"createElement"
+			],
+			[
+				"li",
+				"line-height"
+			],
+			[
+				"f",
+				"fi\tfor in"
+			],
+			[
+				"com",
+				"Completed"
+			],
+			[
+				"on",
+				"onmouseover"
+			],
+			[
+				"cl",
+				"className"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"a",
+				"all"
+			],
+			[
+				"ac",
+				"active"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"bo",
+				"border-radius"
+			],
+			[
+				"cou",
+				"count_job"
+			],
+			[
+				"p",
+				"parentElement"
+			],
+			[
+				"bac",
+				"background-image"
+			],
+			[
+				"onk",
+				"onkeyup\tAttr"
+			],
+			[
+				"tag",
+				"tag_li"
+			],
+			[
+				"o",
+				"onclick"
+			],
+			[
+				"getElementBy",
+				"getElementsByTagName"
+			],
+			[
+				"u",
+				"url()"
+			],
+			[
+				"v",
+				"value_span"
+			],
+			[
+				"cre",
+				"createTextNode"
+			],
+			[
+				"do",
+				"document"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"i",
+				"inherit"
+			],
+			[
+				"ma",
+				"margin-left"
+			],
+			[
+				"text-a",
+				"text-align"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"cha",
+				"changetheme"
+			],
+			[
+				"onca",
+				"onchange\tAttr"
+			],
+			[
+				"them",
+				"themeCSS"
+			],
+			[
+				"ti",
+				"tich1"
+			],
+			[
+				"for",
+				"for\tfor (…) {…}"
+			],
+			[
+				"b",
+				"btn2"
+			],
+			[
+				"s",
+				"src"
+			],
+			[
+				"G",
+				"GHOST"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"he",
+				"header"
+			],
+			[
+				"this",
+				"thisdate"
+			],
+			[
+				"animate",
+				"animate_div"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"h",
+				"innerHTML"
+			],
+			[
+				"con",
+				"country"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"ani",
+				"click_animate"
+			],
+			[
+				"cli",
+				"click"
+			],
+			[
+				"onc",
+				"onclick\tAttr"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"si",
+				"Sin"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"margin-",
+				"margin-left"
+			],
+			[
+				"met",
+				"meta\tTag"
+			],
+			[
+				"me",
+				"meta\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "pac",
+		"selected_items":
+		[
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 428.0
+	},
+	"console":
+	{
+		"height": 130.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"emet"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Real Madrid/Desktop/css_todo.css",
+		"/E/ClothingShop/Shop_Ban_Hang/Models/ShoppingCart.cs",
+		"/C/Users/Real Madrid/Desktop/Shop Cart Free Website Template - Free-CSS.com/shop-cart/cart.html",
+		"/C/Users/Real Madrid/Desktop/limiting_width.html",
+		"/E/HUY-IT/Nam 4/HK1/ĐỒ ÁN/jquery/60 BEST JQUERRY IMGAGE HOVER/Jquery Zoom/zoom-master/demo.html",
+		"/E/HUY-IT/Nam 4/HK1/ĐỒ ÁN/AJAX/ex/suggestion.html",
+		"/F/ĐỒ ÁN/JS/vidu/JS_PhaoHoa/script.js",
+		"/F/ĐỒ ÁN/JS/vidu/JS_PhaoHoa/index.html",
+		"/E/HUY-IT/Năm 3/PHP/bangiay_online/index.php",
+		"/E/HUY-IT/Năm 3/LTWeb/VIPTruyen/style.css",
+		"/C/Users/Real Madrid/Desktop/a.html",
+		"/C/Users/Real Madrid/Desktop/b.html",
+		"/C/Users/Real Madrid/Desktop/localstorage.html",
+		"/E/HUY-IT/Nam 4/HK1/ĐỒ ÁN/AJAX/ex/loaddata/index.php",
+		"/C/Users/Real Madrid/Desktop/TodoList.html",
+		"/C/Users/Real Madrid/Desktop/New folder/mwcshop (1).jpg",
+		"/C/Users/Real Madrid/Desktop/blue.css",
+		"/C/Users/Real Madrid/Desktop/yellow.css",
+		"/E/HUY-IT/Nam 4/HK1/ĐỒ ÁN/JS/Báo cáo/Ex_JS/clock.html",
+		"/E/HUY-IT/Nam 4/HK1/ĐỒ ÁN/JS/donghodientu.html",
+		"/C/xampp/htdocs/drupal/sites/all/themes/tintuc/css/style.css",
+		"/C/Users/Real Madrid/Desktop/LearnHTML.htm",
+		"/C/xampp/htdocs/drupal/themes/bartik/css/style.css",
+		"/C/xampp/htdocs/drupal/sites/all/themes/tintuc/css/colors.css",
+		"/C/xampp/htdocs/drupal/sites/all/themes/framework/style.css",
+		"/C/xampp/htdocs/drupal/sites/all/themes/education/education/css/layout.css",
+		"/C/xampp/htdocs/drupal/sites/all/themes/education/education/template.php",
+		"/C/xampp/htdocs/drupal/sites/all/themes/test/templates/page.tpl.php",
+		"/C/xampp/htdocs/drupal/themes/bartik/templates/page.tpl.php",
+		"/C/xampp/htdocs/drupal/sites/all/themes/test/test.info",
+		"/C/xampp/htdocs/drupal/sites/example.sites.php",
+		"/C/xampp/htdocs/drupal/themes/bartik/template.php",
+		"/C/Users/Real Madrid/Desktop/auto.bat",
+		"/E/HUY-IT/Năm 4/ĐỒ ÁN/JS/Báo cáo/Ex_JS/textcolor.html",
+		"/E/HUY-IT/Năm 4/ĐỒ ÁN/JS/Báo cáo/Ex_JS/text_color.html",
+		"/C/xampp/htdocs/ajax/validate-form-ajax/do_validate.php",
+		"/C/xampp/htdocs/ajax/validate-form-ajax/index.php",
+		"/C/xampp/htdocs/ajax/user/user.html",
+		"/C/xampp/htdocs/ajax/search-ajax/get.php",
+		"/C/xampp/htdocs/ajax/user/getuser.php",
+		"/C/xampp/htdocs/ajax/loaddata/index.html",
+		"/C/xampp/htdocs/ajax/search-ajax/index.html",
+		"/C/xampp/htdocs/ajax/search/country.js",
+		"/E/HUY-IT/Năm 4/ĐỒ ÁN/JS/Báo cáo/BAOCAODOAN/EX_JQ/form/form.html",
+		"/E/HUY-IT/Năm 4/ĐỒ ÁN/JS/Báo cáo/BAOCAODOAN/Ex_JS/caculator.html",
+		"/E/HUY-IT/Năm 4/ĐỒ ÁN/JS/Báo cáo/Ex_JS/caculator.html",
+		"/E/HUY-IT/Năm 4/ĐỒ ÁN/JS/Báo cáo/EX_JQ/animate/Animate.html",
+		"/E/HUY-IT/Năm 4/ĐỒ ÁN/JS/Báo cáo/EX_JQ/Clock-jq/clock.html",
+		"/E/HUY-IT/Năm 4/ĐỒ ÁN/jquery/clock-jquery/index.html",
+		"/E/HUY-IT/Năm 4/ĐỒ ÁN/JS/Báo cáo/BAOCAODOAN/Ex_JS/lichJS.html",
+		"/E/HUY-IT/Năm 4/ĐỒ ÁN/JS/phaohoa.html",
+		"/E/HUY-IT/Năm 4/ĐỒ ÁN/JS/lich.html",
+		"/E/HUY-IT/Năm 4/ĐỒ ÁN/JS/Báo cáo/EX_JQ/horizontalslideshow/demo.html",
+		"/E/HUY-IT/Năm 4/ĐỒ ÁN/JS/Báo cáo/EX_JQ/horizontalslideshow/js/custom.js",
+		"/C/Users/Real Madrid/Desktop/abi.html",
+		"/E/HUY-IT/Năm 4/ĐỒ ÁN/JS/Báo cáo/BAOCAODOAN/EX_JQ/Clock-jq/clock.html",
+		"/C/Users/Real Madrid/Desktop/somay_MSSV_hoten/Home.html",
+		"/E/HUY-IT/Năm 4/ĐỒ ÁN/JS/Báo cáo/EX_JQ/form/form.html",
+		"/C/xampp/htdocs/ajax/loaddata/getuser.php",
+		"/C/xampp/htdocs/ajax/search-ajax/country.js",
+		"/C/xampp/htdocs/ajax/search/get.php",
+		"/E/HUY-IT/Năm 4/ĐỒ ÁN/jquery/clock-jquery/jquery.js",
+		"/E/HUY-IT/Năm 4/ĐỒ ÁN/JS/Báo cáo/Ex_JS/effectmouse/js/index.js",
+		"/C/xampp/htdocs/ajax/phaohoa.html",
+		"/C/xampp/htdocs/ajax/exam.php",
+		"/C/xampp/htdocs/exam.php",
+		"/C/xampp/htdocs/ajax/livesearch/country.js",
+		"/C/xampp/htdocs/ajax/livesearch/index.html",
+		"/C/xampp/htdocs/ajax/livesearch/get.php",
+		"/C/xampp/htdocs/ex/tim_kiem_di_lieu_voi_php_jquery_ajax/ajax-search.php",
+		"/C/xampp/htdocs/ajax/livesearch/ajax.js",
+		"/E/HUY-IT/Năm 4/ĐỒ ÁN/jquery/slideshow/styles.css",
+		"/E/HUY-IT/Năm 4/ĐỒ ÁN/jquery/slideshow.html",
+		"/C/xampp/htdocs/ex/suggestion.html",
+		"/C/xampp/htdocs/select/connect.php",
+		"/C/xampp/htdocs/select/data.php",
+		"/C/xampp/htdocs/select/index.php",
+		"/C/xampp/htdocs/select/ajax.js",
+		"/C/xampp/htdocs/ex/gethint.php",
+		"/C/xampp/htdocs/livesearch/index.html",
+		"/C/xampp/htdocs/livesearch/ajax.js",
+		"/C/xampp/htdocs/livesearch/get.php",
+		"/E/HUY-IT/Năm 4/ĐỒ ÁN/AJAX/ex/loaddata/index.php",
+		"/E/HUY-IT/Năm 4/ĐỒ ÁN/JS/Báo cáo/Ex/effectmouse/js/index.js",
+		"/C/xampp/htdocs/ajax/loaddata/index.php",
+		"/E/HUY-IT/Năm 4/ĐỒ ÁN/jquery/form/form.html",
+		"/E/HUY-IT/Năm 4/ĐỒ ÁN/JS/Báo cáo/Ex/textcolor.html",
+		"/E/HUY-IT/Năm 4/ĐỒ ÁN/JS/Báo cáo/Ex/hieuungchuot.html",
+		"/E/HUY-IT/Năm 4/ĐỒ ÁN/JS/Báo cáo/Ex/caculator.html",
+		"/E/HUY-IT/Năm 4/ĐỒ ÁN/jquery/animate/Animate.html",
+		"/E/HUY-IT/Năm 4/ĐỒ ÁN/jquery/slideshow/script.js",
+		"/E/HUY-IT/Năm 4/ĐỒ ÁN/jquery/slideshow/demo.html",
+		"/E/HUY-IT/Năm 4/ĐỒ ÁN/jquery/horizontalslideshow/js/custom.js",
+		"/E/HUY-IT/Năm 4/ĐỒ ÁN/jquery/may_tinh/maytinh.html",
+		"/E/HUY-IT/Năm 4/ĐỒ ÁN/JS/Báo cáo/Ex/clock.html",
+		"/E/HUY-IT/Năm 4/ĐỒ ÁN/JS/Báo cáo/Ex/helo.html",
+		"/E/HUY-IT/Năm 4/ĐỒ ÁN/jquery/Animate.html",
+		"/E/HUY-IT/Năm 4/ĐỒ ÁN/JS/Báo cáo/Ex/form.html",
+		"/E/HUY-IT/Năm 4/ĐỒ ÁN/jquery/form.html",
+		"/E/HUY-IT/Năm 4/ĐỒ ÁN/jquery/60 BEST JQUERRY IMGAGE HOVER/3d Shading With Box-Shadows/3DShadingWithBoxShadows/3DShadingWithBoxShadows/js/modernizr.custom.js",
+		"/E/HUY-IT/Năm 3/Bài Học/LTWeb/bainhom/flexslider.css",
+		"/E/HUY-IT/Năm 4/ĐỒ ÁN/jquery/Clock-jq/ex.html",
+		"/E/HUY-IT/Năm 4/ĐỒ ÁN/AJAX/ex/loaddata/getuser.php",
+		"/C/xampp/htdocs/ex/tim_kiem_di_lieu_voi_php_jquery_ajax/index.php",
+		"/C/xampp/htdocs/ex/tim_kiem_di_lieu_voi_php_jquery_ajax/dbcon.php",
+		"/E/HUY-IT/Năm 4/ĐỒ ÁN/jquery/Clock-jq/jquery.js",
+		"/E/HUY-IT/Năm 4/ĐỒ ÁN/jquery/maytinh.html",
+		"/C/Users/Real Madrid/Desktop/web/Duyen/index.html",
+		"/C/Users/Real Madrid/Desktop/Maytinh/Maytinh/maytinh.html",
+		"/E/HUY-IT/Năm 4/ĐỒ ÁN/jquery/autocomplete/style.css",
+		"/E/HUY-IT/Năm 4/ĐỒ ÁN/jquery/horizontalslideshow/css/style.css",
+		"/E/HUY-IT/Năm 4/ĐỒ ÁN/jquery/autocomplete/index.html",
+		"/E/HUY-IT/Năm 4/ĐỒ ÁN/AJAX/ex/getthing.php",
+		"/E/HUY-IT/Năm 4/ĐỒ ÁN/AJAX/ex/suggestion.html",
+		"/C/Users/Real Madrid/Desktop/web/Duyen/duyen.html",
+		"/C/Users/Real Madrid/Desktop/ex/exam.html",
+		"/C/Users/Real Madrid/Desktop/WebCaNhan/aboutme.html",
+		"/E/HUY-IT/Năm 3/LTWeb/1413038_PhamHuy_Lab06/Index.html",
+		"/E/HUY-IT/Năm 4/ĐỒ ÁN/JS/Báo cáo/form.html",
+		"/E/HUY-IT/Năm 4/ĐỒ ÁN/JS/Báo cáo/caculator.html",
+		"/E/HUY-IT/Năm 4/ĐỒ ÁN/JS/Báo cáo/clock.html",
+		"/C/Users/Real Madrid/Desktop/WebCaNhan/index.html",
+		"/E/HUY-IT/Năm 4/ĐỒ ÁN/JS/Báo cáo/textcolor.html",
+		"/E/HUY-IT/Năm 4/ĐỒ ÁN/JS/Báo cáo/hieuungchuot.html",
+		"/E/HUY-IT/Năm 3/LTWeb/1413038_Lab03/Cau3_Lab3.html",
+		"/E/HUY-IT/Năm 3/LTWeb/Index.html",
+		"/C/Users/Real Madrid/Desktop/bangiay_online/index.php",
+		"/C/Users/Real Madrid/Desktop/bangiay_online/ket_noi.php"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "TodoList.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 115.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

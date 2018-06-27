@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta ="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css_todo.css">
+	<script src="jq.js"></script>
+	<title>To do list</title>
+</head>
+<body>
+<div class="container" ">
+	<h1>todos</h1>
+	<img  src="down.png" width="30px" height="30px" id="imgAll"><input type="text" placeholder="What needs to be done ?" id="txt">
+	<ul id="myUL">
+	</ul>
+	<ul>
+		<li id="footer">
+			<span id="item">item</span>&nbsp;&nbsp;
+			<span id="all" class="tab" onclick="tab_all()"> All </span> &nbsp;&nbsp;
+			<span id="active" onclick="tab_active()"> Active </span> &nbsp;&nbsp;
+			<span id="com" onclick="tab_completed()">Completed</span>&nbsp;&nbsp;
+			<span id="clear" onclick="tab_clear()">Clear All</span>
+		</li>
+	</ul>
+</div>
+<script>
+
+//GET
+var checkbox=document.getElementsByClassName('check');	
+var close = document.getElementsByClassName('close');
+var img=document.getElementById('img');
+var job=document.getElementsByClassName('job');
+var label= document.getElementsByClassName('lbl');
+var getEdit=document.getElementsByClassName('edit');
+
+//Thêm công việc
+$(document).keyup(function Add(e) {
+		if (e.keyCode==13) {
+			// Thêm thẻ li khi enter
+			var li = document.createElement("li");
+			var lbl= document.createElement("label");
+			var input_value = document.getElementById('txt').value;
+			var text = document.createTextNode(input_value);
+
+			lbl.appendChild(text);
+			li.appendChild(lbl);
+			lbl.setAttribute("value",input_value);
+			li.className="job";
+			lbl.className="lbl";
+
+			if (input_value == "") { 
+				alert('Chưa nhập !!!')
+			}
+			else{ 
+				document.getElementById('myUL').appendChild(li);
+				var input=document.getElementById('txt').value="";
+			}
+			
+			//Thêm nút close vào thẻ li tạo ra'
+			var span = document.createElement("span");
+			var value_span=document.createTextNode("x");
+
+			span.appendChild(value_span);
+			span.className="close";
+			li.appendChild(span);
+
+			//Hiển thị thẻ footer
+			document.getElementById('footer').style.display='block';
+			//Default tab all
+			//tab_all();
+
+			// Tạo checkbox
+			var input = document.createElement("input");
+			input.className="check";
+			input.type="checkbox";
+			li.appendChild(input);
+		}
+
+
+		
+		// Xử lý active
+		
+		for (var i = 0; i < checkbox.length; i++) {
+			checkbox[i].onclick = function active_job(){
+				if (this.checked) {
+					var parent=this.parentElement;
+					parent.style.textDecoration='line-through';
+					parent.style.color='#a5a5a5';
+				}
+				else {
+					var parent=this.parentElement;
+					parent.style.textDecoration='none';
+					parent.style.color='#636161';
+				}	
+			}
+		}
+		//Xóa job
+		
+		for (var i = 0; i < close.length; i++) {
+			close[i].onclick=function(){
+			var parent = this.parentElement;
+			parent.remove();	
+			count_job();
+			}
+		}
+
+		//Đếm job
+		function count_job(){	
+			if (job.length >= 2) {
+		 		document.getElementById('item').innerHTML=job.length + " " + "items";
+			}
+		 	else { 
+		 		document.getElementById('item').innerHTML=job.length + " " + "item"; 
+		 	}
+		 	//
+		 	if(job.length==0){
+			 	document.getElementById('footer').style.display='none';	
+		 	}
+		}
+		count_job();
+	
+
+	
+});
+
+// Tab Active
+	function tab_active(){
+		for (var i = 0; i < checkbox.length; i++) {
+			if (checkbox[i].checked==true) {
+				var parent=checkbox[i].parentElement;
+				parent.style.display='none';
+			} 
+		} 
+		document.getElementById('active').setAttribute("class","tab");
+		document.getElementById('all').classList.remove('tab');
+		document.getElementById('com').classList.remove('tab');
+	}
+// Tab All
+	function tab_all(){
+		for (var i = 0; i < job.length; i++) {
+			job[i].style.display='block';
+		}
+		document.getElementById('all').setAttribute('class','tab');
+		document.getElementById('active').classList.remove('tab');
+		document.getElementById('com').classList.remove('tab');
+	}
+// Tab Completed
+	function tab_completed(){
+		for (var i = 0; i < checkbox.length; i++) {
+			var parent=checkbox[i].parentElement;
+			const isChecked = checkbox[i].checked
+			parent.style.display= isChecked ? 'block' : 'none';
+		} 
+	}
+
+//Chọn hết
+		imgAll.onclick=function checkAll() {
+			for (var i = 0; i < checkbox.length; i++) {
+					if(checkbox[i].checked==false){
+						checkbox[i].checked=true;
+						checkbox[i].parentElement.style.textDecoration='line-through';
+					}				
+			}
+		}
+function stylesForTab() {
+	document.getElementById('com').setAttribute("class","tab");
+	document.getElementById('all').classList.remove('tab');
+	document.getElementById('active').classList.remove('tab');
+}
+	
+//Clear
+function tab_clear() {
+	for (var i = 1; i <= job.length; i++) {
+		job[i].remove();
+	}
+}
+
+
+		
+
+</script>
+</body>
+</html
